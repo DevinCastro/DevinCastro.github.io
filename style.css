@@ -1,10 +1,24 @@
+#mainSection {
+  background-color: rgb(42, 176, 176);
+}
+
+h1 {
+  margin-bottom: 40px; 
+}
 
 
+.myCenter {
+  text-align: center;
+}
 
-
-
+#phoneAbout {
+  padding-top: 25%;
+}
 
 /* Responsive media query */
-/* @media (min-width: 576px) {
-  ...
-} */
+
+@media only screen and (max-width: 1200px) {
+  #phoneAbout {
+    padding-top: 0%;
+  }
+}
