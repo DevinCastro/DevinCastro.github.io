@@ -2,6 +2,12 @@
   background-color: rgb(42, 176, 176);
 }
 
+#mainPhoto {
+  padding-left: 10%;
+}
+
+
+
 h1 {
   margin-bottom: 40px; 
 }
@@ -21,4 +27,10 @@ h1 {
   #phoneAbout {
     padding-top: 0%;
   }
+
+  #mainPhoto {
+    padding-left: 0%;
+  }
+
+
 }
