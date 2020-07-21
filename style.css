@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(./assets/photos/MEL08793.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -7,21 +7,38 @@ body {
 h1 {
   font-family: 'Titillium Web', sans-serif;
   text-align: center;
-  font-weight: 200;
-  font-size: 50px;
-  color: whitesmoke;
+  font-weight: 500;
+  font-size: 60px;
+  color: white;
   position: absolute;
-  top: 50%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
   ;
 }
 
+.devincastro {
+  color: rgb(255, 13, 130);
+  font-weight: 600;
+}
+ 
+
 /* Responsive media query */
 
-@media only screen and (max-width: 962px) {
+@media only screen and (max-width: 1080px) {
   body {
-    min-height: 962px;
+    min-height: 812px;
+  }
+
+  h1 {
+    font-size: 50px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+
