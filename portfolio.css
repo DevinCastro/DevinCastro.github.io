@@ -1,7 +1,6 @@
 .rowStyle {
   margin-bottom: 5%;
   padding-bottom: 50px;
-  border-bottom: rgb(118, 115, 115) solid 1px;
 }
 
 img {
@@ -10,11 +9,18 @@ img {
 
 .card {
   margin: 0 auto;
+  margin-top: 2%;
   border: grey solid 1px;
   background-image: url(./assets/photos/cardback.jpeg);
 }
 
 section {
-  background-color: cadetblue;
+  background-color: rgb(248, 171, 255);
 }
 
+@media only screen and (max-width: 761px) {
+  .rowStyle {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
