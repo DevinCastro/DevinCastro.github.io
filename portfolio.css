@@ -10,6 +10,7 @@ img {
 
 .card {
   margin: 0 auto;
+  border: grey solid 1px;
   background-image: url(./assets/photos/cardback.jpeg);
 }
 
