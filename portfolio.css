@@ -1,12 +1,15 @@
+/* This command gives a little space between the bottom of the row and the row below it */
 .rowStyle {
   margin-bottom: 5%;
   padding-bottom: 50px;
 }
 
+/* This css makes all the images in the cards all the same size */
 img {
   height: 150px;
 }
 
+/* This gives the cards all a background image and gives some space about the top. */
 .card {
   margin: 0 auto;
   margin-top: 2%;
@@ -14,10 +17,12 @@ img {
   background-image: url(./assets/photos/cardback.jpeg);
 }
 
+/* This assigns the main section a background color */
 section {
   background-color: rgb(248, 171, 255);
 }
 
+/* This media query fixes the margins between cards when on a small screen */
 @media only screen and (max-width: 761px) {
   .rowStyle {
     margin-bottom: 0;
