@@ -1,7 +1,7 @@
 /* The css for the body tag puts the background image from the following file path and makes it so that it fills up the entire page.
 The background color is there for when the image loads */
 body {
-  background-image: url(./assets/photos/MEL08793.jpg);
+  background-image: url(../assets/photos/MEL08793.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgb(24, 24, 24);
