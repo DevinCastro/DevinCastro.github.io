@@ -1,0 +1,13 @@
+.rowStyle {
+  margin-bottom: 5%;
+  padding-bottom: 50px;
+  border-bottom: rgb(118, 115, 115) solid 5px;
+}
+
+img {
+  height: 150px;
+}
+
+.card {
+  margin: 0 auto;
+}
