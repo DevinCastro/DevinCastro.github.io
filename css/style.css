@@ -1,10 +1,11 @@
 /* The css for the body tag puts the background image from the following file path and makes it so that it fills up the entire page.
 The background color is there for when the image loads */
-body {
+section {
   background-image: url(../assets/photos/MEL08793.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgb(24, 24, 24);
+  min-height: 1080px;
 }
 
 /* The following css gives all the style to the h1 tag and centers it */
@@ -29,19 +30,14 @@ h1 {
  
 
 /* Responsive media query */
-/* The following code changes the size of the body right at the moment the height of the image cant fill up the entire screen */
+/* The following code changes the size of the text at cetain pixels for responsiveness and makes it mobile friendly */
 
 @media only screen and (max-width: 1080px) {
-  body {
-    min-height: 812px;
-  }
-
   h1 {
     font-size: 50px;
   }
 }
 
-/* This media query helps the text be a more proper size when on a smaller screen. */
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 30px;

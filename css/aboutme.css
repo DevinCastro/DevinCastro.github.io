@@ -1,19 +1,16 @@
+/* This is the css of the background color for my jumbotron */
 #mainSection {
   background-color: cadetblue;
 }
 
+/* this aligns my text and button in the bottom half of the jumbotron */
 h1 {
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
   margin-bottom: 40px;
 }
 
+/* This class is for the left column to center my photo inside of it at all times so it is centered for mobile responsiveness as well */
 .center {
   text-align: center;
 }
-
-/* @media only screen and (max-width: 1200px) {
-  img {
-    margin-left: 25%;
-  }
-} */
