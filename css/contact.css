@@ -1,0 +1,15 @@
+.jumbotron {
+  background-color: rgb(196, 125, 99);
+}
+
+.right {
+  margin-left: 30%;
+}
+
+
+/* This media query gets rid of the previous margin css when on a smaller screen */
+@media only screen and (max-width: 992px) {
+  .right {
+    margin-left: auto;
+  }
+}
