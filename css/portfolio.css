@@ -14,7 +14,7 @@ img {
   margin: 0 auto;
   margin-top: 2%;
   border: grey solid 1px;
-  background-image: url(./assets/photos/cardback.jpeg);
+  background-image: url(../assets/photos/cardback.jpeg);
 }
 
 /* This assigns the main section a background color */
