@@ -3,6 +3,8 @@
 ## This is my professional portfolio
 ### _for now_...
 
+Deployed application: https://devincastro.github.io/
+
 >This code is made up of 4 pages that consist of my:
 >* Home page (CLICK ON "DEVIN CASTR" IN THE NAV BAR TO GO BACK TO THE HOME PAGE)
 >* About me
