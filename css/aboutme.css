@@ -14,3 +14,7 @@ h1 {
 .center {
   text-align: center;
 }
+
+#resume {
+  width: 100%;
+}
